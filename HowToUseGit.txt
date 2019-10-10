@@ -1,0 +1,17 @@
+Halli Hallo liebe Menschen der tollen Gruppe Chat4BA!
+
+Wie benutzen wir Git und was ist das?
+Mit Git können wir alle gleichzeitig an einer Datei arbeiten.
+Diese können dann per Pull, Merge und Push wieder zusammengeführt werden.
+Dabei entstehen ab und zu Konflikte. 
+Diese müssen dann von uns, bzw. automatisch bearbeitet werden.
+
+Am einfachsten ist es GitHub Desktop runterzuladen, dadurch werden die Daten automatisch
+immer auf euren Rechner runtergeladen und wir müssen keine Bash benutzen.
+
+Jeder von euch hat sein eigenes Repository. In dem könnt ihr euch immer die
+Master Dateien ziehen (vom Master-Branch). Diese könnt ihr dann bearbeiten.
+Wenn ihr meint ihr habt was fertiggestellt einfach sagen das ihr es mit dem Master-
+branch mergen wollt.
+
+Für Fragen stehe ich natürlich nicht zur verfügung und Rechtschreibfehler können behalten werden!
