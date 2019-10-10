@@ -1,3 +1,1 @@
-Readme Datei
-
-Erste Änderung vom 10.10.2019
+Erstelle einen GitHub Account und trage den Nutzernamen / E-Mailadresse in Whatsapp ein!
