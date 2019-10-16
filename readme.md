@@ -1,8 +1,8 @@
 # CHAT4BA
 
-Ein Chat, der alle Studenten miteinander verbindet. Hierbei werden keine Daten an außerhalb weitergegeben und es ist ein einfacher Login per Studienlogin möglich.
+Chat4BA is an easy to use Application for chatting. You can easily login via your student login and your data will be saved on the BA-Leipzig server.
 
-# Entwickler
+# Publisher
 
 
 
