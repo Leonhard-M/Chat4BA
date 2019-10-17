@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+      <title>Softwareprojekt</title>
+  </head>
+<body>
+
+  <!-- Header ----------------------------------------------->
+
+    <header>
+      <div id="logo">
+        <a href="#">
+          <img src="img/logo.png" alt="Logo">
+        </a>
+      </div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Chat</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#register">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- Home ----------------------------------------------->
+
+    <section id="home">
+      <hr>
+      <h1>Softwareprojekt</h1>
+      <h2>Philipp &amp; Leonhard &amp; Christin &amp; Peter</h2>
+      <a href="#about"><img src="img/pfeil.png" alt=""></a>
+    </section>
+
+<!-- About ----------------------------------------------->
+
+    <section id="about">
+      <h3>About</h3>
+      <hr>
+      <img src="img/avatar.png" alt="Avatar">
+      <h4></h4>
+      <p>Team- und Projektvorstellung <br>
+
+        <?php
+echo "Remote-Adresse: ".$_SERVER["REMOTE_ADDR"]."<br />";
+echo "Referer: ".$_SERVER["HTTP_REFERER"]."<br />";
+echo "User-Agent: ".$_SERVER["HTTP_USER_AGENT"]."<br />";
+echo "Server-Name: ".$_SERVER["SERVER_NAME"]."<br />";
+
+        ?>
+
+      </p>
+    </section>
+
+<!-- Work ----------------------------------------------->
+
+    <section id="work">
+      <h3>Chatgruppen</h3>
+      <hr>
+
+      <div id="chatgruppen">
+        <ul>
+          <li><a href="#"><img src="https://placehold.it/280x170" alt="Projekt_01"></a></li>
+          <li><a href="#"><img src="https://placehold.it/280x170" alt="Projekt_02"></a></li>
+          <li><a href="#"><img src="https://placehold.it/280x170" alt="Projekt_03"></a></li>
+          <li><a href="#"><img src="https://placehold.it/280x170" alt="Projekt_04"></a></li>
+          <li><a href="#"><img src="https://placehold.it/280x170" alt="Projekt_05"></a></li>
+          <li><a href="#"><img src="https://placehold.it/280x170" alt="Projekt_06"></a></li>
+        </ul>
+      </div>
+    </section>
+
+<!-- Contact ----------------------------------------------->
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <hr>
+
+      <form class="" action="index.html" method="post">
+        <input class="input_text" type="email" tabindex="1" placeholder="E-Mail"><br>
+        <input class="input_text" type="text" tabindex="2" placeholder="Betreff"><br>
+        <textarea tabindex="3" placeholder="Nachricht"></textarea><br>
+        <input type="submit" class="button">
+      </form>
+    </section>
+
+<!-- Sign Up ----------------------------------------------->
+
+<section id="register">
+  <h3>Sign Up</h3>
+  <hr>
+  <?php include('db.php');?>
+
+</section>
+
+<!-- Footer ----------------------------------------------->
+
+    <footer>
+      <p>
+        &copy; 2019 WebServer
+      </p>
+    </footer>
+
+  </body>
+</html>
