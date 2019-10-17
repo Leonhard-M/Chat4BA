@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=MyDB', 'root', 'Admin123!?!');
+$pdo = new PDO('mysql:host=localhost;dbname=MyDB', 'root', '');
 
 $showFormular = true; //Variable ob das Registrierungsformular anezeigt werden soll
 
